@@ -4,13 +4,13 @@ import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("19662976"))
+API_HASH = os.getenv("97cfb26df0a49ab11fa482a5bf660019")
+BOT_TOKEN = os.getenv("7658105939:AAHKoOokdxjTXJhszySV4anogdkRO_DtIjI")
 
 app = Client("forcejoin_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-admin_id = 123456789  # Replace this with your real Telegram ID
+admin_id = 1889545520  # Replace this with your real Telegram ID
 data_file = "data.json"
 
 # Load or initialize data
