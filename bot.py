@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-API_ID = int(os.getenv("19662976"))
+API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("97cfb26df0a49ab11fa482a5bf660019")
 BOT_TOKEN = os.getenv("7658105939:AAHKoOokdxjTXJhszySV4anogdkRO_DtIjI")
 
